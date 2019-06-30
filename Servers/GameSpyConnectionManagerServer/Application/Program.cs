@@ -108,7 +108,9 @@ namespace RetroSpyServer
 
             try
             {
-                ConfigManager.Load(Program.BasePath);
+                //ConfigManager.Load(Program.BasePath);
+                string xmlfilepath = @"..\..\..\..\";
+                ConfigManager.Load(xmlfilepath);
                 //set the loglevel to system
                 LogWriter.Log.MiniumLogLevel = ConfigManager.xmlConfiguration.LogLevel;
                 //create a instance of ServerManager class

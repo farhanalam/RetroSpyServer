@@ -16,15 +16,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetroSpyServer", "RetroSpyS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{5795F763-D0AA-4D65-A8A3-F86891D9AF65}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpyCDKeyServer", "Servers\GameSpyCDKeyServer\GameSpyCDKeyServer.csproj", "{45968A7B-61A5-466E-8130-9DADBEC4BB39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CDKey", "Servers\GameSpyCDKeyServer\CDKey.csproj", "{45968A7B-61A5-466E-8130-9DADBEC4BB39}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpyConnectionManagerServer", "Servers\GameSpyConnectionManagerServer\GameSpyConnectionManagerServer.csproj", "{6198C880-802F-4336-87AC-A429E9597844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPCM", "Servers\GameSpyConnectionManagerServer\GPCM.csproj", "{6198C880-802F-4336-87AC-A429E9597844}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpyMasterServer", "Servers\GameSpyMasterServer\GameSpyMasterServer.csproj", "{7CD3629D-2912-44AF-ABFD-7F8B497064F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterServer", "Servers\GameSpyMasterServer\MasterServer.csproj", "{7CD3629D-2912-44AF-ABFD-7F8B497064F4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpyNatNegotiationServer", "Servers\GameSpyNatNegotiationServer\GameSpyNatNegotiationServer.csproj", "{7691D737-319C-46E3-A3D2-4838F5585527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatNeg", "Servers\GameSpyNatNegotiationServer\NatNeg.csproj", "{7691D737-319C-46E3-A3D2-4838F5585527}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpySearchManagerServer", "Servers\GameSpySearchManagerServer\GameSpySearchManagerServer.csproj", "{7B67764C-C8DA-49BD-A6C8-7877D1CA8B5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPSP", "Servers\GameSpySearchManagerServer\GPSP.csproj", "{7B67764C-C8DA-49BD-A6C8-7877D1CA8B5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

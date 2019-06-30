@@ -11,11 +11,11 @@ namespace RetroSpyServer.XMLConfig
     {
         public static XMLConfiguration xmlConfiguration { get; protected set; }
 
-        public static bool Load()
+        public static bool Load(string basepath)
         {
             // Load XML file
             {
-                FileStream fstream = new FileStream(Path.Combine(Program.BasePath, "RetroSpyServer.xml"), FileMode.Open);
+                FileStream fstream = new FileStream(Path.Combine(basepath, "RetroSpyServer.xml"), FileMode.Open);
                 fstream.Seek(0, SeekOrigin.Begin);
                 //stream.Position = 0;
                 XmlSerializer serializer = new XmlSerializer(typeof(XMLConfiguration));
