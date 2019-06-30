@@ -14,6 +14,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpyLib", "GameSpyLib\Ga
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetroSpyServer", "RetroSpyServer\RetroSpyServer.csproj", "{0B78D671-E09D-43BC-B3C9-060198749102}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{5795F763-D0AA-4D65-A8A3-F86891D9AF65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpyCDKeyServer", "Servers\GameSpyCDKeyServer\GameSpyCDKeyServer.csproj", "{45968A7B-61A5-466E-8130-9DADBEC4BB39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpyConnectionManagerServer", "Servers\GameSpyConnectionManagerServer\GameSpyConnectionManagerServer.csproj", "{6198C880-802F-4336-87AC-A429E9597844}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpyMasterServer", "Servers\GameSpyMasterServer\GameSpyMasterServer.csproj", "{7CD3629D-2912-44AF-ABFD-7F8B497064F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpyNatNegotiationServer", "Servers\GameSpyNatNegotiationServer\GameSpyNatNegotiationServer.csproj", "{7691D737-319C-46E3-A3D2-4838F5585527}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSpySearchManagerServer", "Servers\GameSpySearchManagerServer\GameSpySearchManagerServer.csproj", "{7B67764C-C8DA-49BD-A6C8-7877D1CA8B5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +40,36 @@ Global
 		{0B78D671-E09D-43BC-B3C9-060198749102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B78D671-E09D-43BC-B3C9-060198749102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B78D671-E09D-43BC-B3C9-060198749102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45968A7B-61A5-466E-8130-9DADBEC4BB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45968A7B-61A5-466E-8130-9DADBEC4BB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45968A7B-61A5-466E-8130-9DADBEC4BB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45968A7B-61A5-466E-8130-9DADBEC4BB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6198C880-802F-4336-87AC-A429E9597844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6198C880-802F-4336-87AC-A429E9597844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6198C880-802F-4336-87AC-A429E9597844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6198C880-802F-4336-87AC-A429E9597844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD3629D-2912-44AF-ABFD-7F8B497064F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD3629D-2912-44AF-ABFD-7F8B497064F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD3629D-2912-44AF-ABFD-7F8B497064F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD3629D-2912-44AF-ABFD-7F8B497064F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7691D737-319C-46E3-A3D2-4838F5585527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7691D737-319C-46E3-A3D2-4838F5585527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7691D737-319C-46E3-A3D2-4838F5585527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7691D737-319C-46E3-A3D2-4838F5585527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B67764C-C8DA-49BD-A6C8-7877D1CA8B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B67764C-C8DA-49BD-A6C8-7877D1CA8B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B67764C-C8DA-49BD-A6C8-7877D1CA8B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B67764C-C8DA-49BD-A6C8-7877D1CA8B5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45968A7B-61A5-466E-8130-9DADBEC4BB39} = {5795F763-D0AA-4D65-A8A3-F86891D9AF65}
+		{6198C880-802F-4336-87AC-A429E9597844} = {5795F763-D0AA-4D65-A8A3-F86891D9AF65}
+		{7CD3629D-2912-44AF-ABFD-7F8B497064F4} = {5795F763-D0AA-4D65-A8A3-F86891D9AF65}
+		{7691D737-319C-46E3-A3D2-4838F5585527} = {5795F763-D0AA-4D65-A8A3-F86891D9AF65}
+		{7B67764C-C8DA-49BD-A6C8-7877D1CA8B5E} = {5795F763-D0AA-4D65-A8A3-F86891D9AF65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F286A822-2C93-4C46-B8BA-FF1C4847B719}
